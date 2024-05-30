@@ -1,0 +1,90 @@
+*{
+    font-family: Signika Negative;
+    color:rgb(17, 119, 160) ;
+    
+}
+.container{
+    display:inline-flex;
+    justify-content: center;
+    position: relative;
+    border: 2px solid rgb(17, 119, 160);
+    top: 100px;
+    left: 380px;
+    
+}
+.card{
+    
+    border-right: none;
+    width: 300px;
+    height: 300px;
+}
+h3 {
+    position: relative;
+    left: 32px;
+    color: rgb(17, 119, 160);
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.units{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(17, 119, 160);
+    border-radius: 5px;
+    padding: 5px;
+}
+.units #temperature{
+    border: none;
+    outline: none;
+}
+.units #fromunit{
+    border: none;
+}
+.secondinput{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.secondinput #unitsb{
+    margin-bottom: 10px;
+}
+.secondinput #tounit{
+    width: 240px;
+    height: 30px;
+    border: 2px solid rgb(17, 119, 160);
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn{
+    position: relative;
+    top: 20px;
+}
+button{
+    width: 100px;
+    background-color: rgb(17, 146, 197) ;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(17, 146, 197);
+    padding: 5px;
+}
+.cardb{
+    background-color:rgb(17, 119, 160) ;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    border: 3px solid rgb(17, 119, 160);
+    width: 300px;
+    height: 300px;
+}
+.cardb input{
+    position: relative;
+    left: 110px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 35px;
+    font-weight: 1000;
+}
+    

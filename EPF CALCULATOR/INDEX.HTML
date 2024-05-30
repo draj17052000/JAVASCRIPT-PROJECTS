@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPF Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>EPF Calculator</h1>
+        <form id="epfForm">
+            <div class="input-group">
+                <label for="salary">Monthly Salary:</label>
+                <input type="number" id="salary" name="salary" required>
+            </div>
+            <div class="input-group">
+                <label for="age">Current Age:</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+            <div class="input-group">
+                <label for="percentage">EPF Contribution (%):</label>
+                <input type="number" id="percentage" name="percentage" required>
+            </div>
+            <div class="input-group">
+                <label for="increase">Annual Salary Increase (%):</label>
+                <input type="number" id="increase" name="increase" required>
+            </div>
+            <div class="input-group">
+                <label for="interest">EPF Interest Rate (%):</label>
+                <input type="number" id="interest" name="interest" required>
+            </div>
+            <button type="button" onclick="calculateEPF()">Calculate</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPF CALC</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Girassol&family=Marko+One&family=Noto+Sans+Tamil:wght@100..900&family=Pacifico&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&family=Signika+Negative:wght@300..700&family=Solway:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <img src="assets/senior-man-cartoon-character_1308-122978.avif" width="250px" height="500px">
+        <form action="#">
+            <div class="top">
+                <div class="title">
+                    <h2>PPF CALCULATOR</h2>
+                </div>
+                <div class="inputvalues">
+                    <div class="input">
+                        <label>Yearly Investment</label>
+                        <input id="investment" type="number" placeholder="0">
+                    </div>
+                    <div class="input">
+                        <label>Rate Of Interest</label>
+                        <input id="interest" type="number" placeholder="7.1" step="0.01">
+                    </div>
+                    <div class="input">
+                        <label>Time Period (In Years)</label>
+                        <input id="tenure" type="number" placeholder="15">
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="results">
+                    <div class="result">
+                        <label>Invested Amount</label>
+                        <input id="investedAmount" type="number" readonly>
+                    </div>
+                    <div class="result">
+                        <label>Total Interest</label>
+                        <input id="totalInterest" type="number" readonly>
+                    </div>
+                    <div class="result">
+                        <label>Maturity Value</label>
+                        <input id="maturityValue" type="number" readonly>
+                    </div>
+                </div>
+                <button type="button" onclick="calculate()">Calculate</button>
+            </div>
+        </form>
+    </div>
+    <script src="MAIN.JS"></script>
+</body>
+</html>
